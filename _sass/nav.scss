@@ -1,0 +1,91 @@
+/* Responsive Navigation Styles */
+
+
+.site-nav-container {
+    display: flex;
+    flex-flow: column nowrap;
+    // height:auto;
+    width: 100%;
+    background-color:white;
+}
+
+.site-nav-topbar{
+    display: flex;
+    height: 4.0rem;
+    width: 100%;
+    background-color: #0087c6;
+}
+
+.site-nav-toplogo {
+    display: flex;
+    flex-flow:column nowrap;
+    text-align: center;
+    padding-bottom: .6rem;
+    border-bottom: .4rem solid #0087c6;
+}
+
+.site-nav-toplogo h2 {
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+
+.site-nav-bottombar{
+    display: flex;
+    height: 4.5rem;
+    width: 100%;
+    background-color: white;
+    border-bottom: .4rem solid #0087c6;
+    // background-color: #0087c6;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.site-nav {
+    position:absolute;
+    top:10rem;
+    right:1rem;
+    background-color:white;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    text-align: right;
+}
+
+.site-nav .menu-icon {
+    display: block;
+    float: right;
+    width: 36px;
+    height: 26px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.site-nav .trigger {
+    clear: both;
+    display: none;
+}
+
+.site-nav:hover .trigger {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.site-nav .page-link {
+    color: #111;
+    display: block;
+    padding: 5px 10px;
+    margin-left: 20px;
+}
+
+.site-nav .page-link:hover {
+    color: gray;
+    font-weight: bolder;
+}
+
+.site-nav .page-link:active {
+    color: #0087c6;
+}

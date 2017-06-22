@@ -1,0 +1,54 @@
+
+.about-container {
+    background-color:#f7f7f7;
+    border-top:1rem solid #dcdcdc;
+    height:auto;
+}
+
+.about-text {
+    font-family: arial;
+}
+
+.emailform{
+    font-family: arial;
+}
+
+.newsletter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+}
+
+
+.newsletter-container input[type=text] {
+    margin-top:.5rem;
+    padding:.5rem 3rem;
+    border:.1rem solid #d2d3d2;
+}
+
+.newsletter-container input[type=submit]{
+    font-family: arial;
+    background-color:#302f30;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+
+.newsletter-container input[type=submit]:hover {
+    background-color: #0087c6;
+}
+
+.newsletter-container input[type=submit]:active {
+    font-weight: bolder;
+}
+
+
+.emailform {
+    margin-bottom: 1rem;
+}

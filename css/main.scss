@@ -1,0 +1,88 @@
+---
+---
+
+/* CSS Styles are defined below */
+@import "normalize";
+@import "nav";
+@import "meet-our-team";
+@import "about";
+@import "media-queries";
+
+
+body {
+    font-family: 'Black Ops One', cursive;
+    background-color: white;
+}
+
+.content-top-container, .content-bottom-container{
+    text-align: center;
+}
+
+.content-top-text, .content-bottom-text {
+    font-family: arial;
+}
+
+
+.bluetext {
+    color: #0087c6;
+    font-weight: bolder;
+}
+
+.content-middle-container {
+    display: flex;
+    justify-content: center;
+}
+
+.content-middle-container img {
+    opacity: 0.7;
+    height: 4.2rem;
+}
+
+.content-middle-container img:hover {
+   opacity: 1;
+}
+
+table, tr, td {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.prevandnextbuttons{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.roundedbutton {
+    display:flex;
+    height: 2rem;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+    padding:0 1rem;
+    border-radius: 1rem;
+    margin-right: 2rem;
+    box-shadow: 0 .2rem #999;
+}
+
+.roundedbutton:last-child {
+    margin-right:0;
+}
+
+
+.roundedbutton a {
+    color: white;
+    
+}
+
+.roundedbutton:hover {
+    background-color:#0087c6;
+}
+
+.roundedbutton:active {
+    background-color: black;
+    font-weight: bolder;
+    box-shadow: 0 .2rem #666;
+    transform: translateY(4px);
+}

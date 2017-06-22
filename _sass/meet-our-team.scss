@@ -1,0 +1,23 @@
+h2 {
+ font-weight: lighter;
+}
+
+.teammember-picture img {
+    height: 10rem;
+    padding: .5rem;
+    border-radius: 20rem;
+    border: .1rem solid gray;
+}
+
+.teammember-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.teammember-text {
+    font-family: arial;
+    margin:1rem 0;
+    text-align: center;
+}
