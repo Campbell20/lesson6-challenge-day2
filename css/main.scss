@@ -3,9 +3,12 @@
 
 /* CSS Styles are defined below */
 @import "normalize";
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 @import "nav";
 @import "meet-our-team";
 @import "about";
+@import "footer";
 @import "media-queries";
 
 
@@ -15,6 +18,9 @@ body {
 }
 
 .content-top-container, .content-bottom-container{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
     text-align: center;
 }
 

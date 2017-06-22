@@ -1,0 +1,38 @@
+
+
+.socialmedia-icon-container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    
+}
+
+footer {
+    background-color: #f7f7f7;
+    margin:0;
+    border-bottom: 4rem solid #0087c6;
+}
+
+
+.socialmedia-icon {
+    margin-right: .2rem;
+    margin-bottom: 1rem;
+    font-size: 3.0rem;
+    height: 3rem;
+    width: 3rem;
+    color: black;
+}
+
+.socialmedia-icon:last-child {
+    margin-right:0;
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    color: #3b5998;
+}
