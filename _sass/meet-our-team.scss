@@ -1,10 +1,13 @@
+.meet-our-team-container-820px {
+    display: flex;
+    justify-content: center;
+}
+
 h2 {
  font-weight: lighter;
 }
 
 .teammember-picture img {
-    height: 10rem;
-    padding: .5rem;
     border-radius: 20rem;
     border: .1rem solid gray;
 }
@@ -21,3 +24,18 @@ h2 {
     margin:1rem 0;
     text-align: center;
 }
+
+
+.meetteam-table {
+    height:auto;
+    text-align:center;
+}
+.meetteam-table tbody:first-child{
+    display:inline-flex;
+}
+
+.meetteam-table tr:nth-child{
+    display:flex;
+    text-align:center;
+}
+
