@@ -1,3 +1,8 @@
+.meet-our-team-container {
+    text-align:center;
+}
+
+
 .meet-our-team-container-820px {
     display: flex;
     justify-content: center;
@@ -39,3 +44,15 @@ h2 {
     text-align:center;
 }
 
+.meet-our-team-container-820px td {
+    padding:0 1rem;
+    text-align:center;
+}
+
+
+.meet-our-team-container-820px .teammember-text{
+    display: flex;
+    justify-content: center;
+    flex-flow:column;
+    
+}

@@ -26,6 +26,9 @@
   .content-bottom-container-620px {
     display: none;
   }
+  .content-bottom-container-820px{
+    display:none;
+  }
   .meet-our-team-container-820px{
     display:none;
   }
@@ -96,13 +99,24 @@
   //   content: "810px";
   //   color: black;
   // }
+   
+   
+   
    .meet-our-team-container-320px {
     display:none;
   }
   .meet-our-team-container-820px {
     display:flex;
-    // flex-flow: row nowrap;
-    // margin: 5rem 0;
+  }
+
+  .content-bottom-container-620px {
+    display: none;
+  }
+  
+  .content-bottom-container-820px {
+    display:flex;
+    justify-content: center;
+    margin-bottom: 2rem;
   }
 }
 
